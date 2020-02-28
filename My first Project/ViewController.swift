@@ -88,6 +88,7 @@ class ViewController: UIViewController {
         pn=Double(resultScreen.text!)!
         result=NSNumber(value: pn*pn)
         resultScreen.text=result.stringValue
+        eq=true
     }
     
         
